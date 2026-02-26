@@ -14,20 +14,20 @@
     </thead>
 
     <tbody>
-    {{#each customers}}
+        {{#each customers}}
         <tr>
             <td>{{customer_id}}</td>
             <td>{{first_name}} {{last_name}}</td>
             <td>{{email}}</td>
             <td>
                 <ul>
-                {{#each rentals}}
+                    {{#each rentals}}
                     <li>{{rental_date}}</li>
-                {{/each}}
+                    {{/each}}
                 </ul>
             </td>
         </tr>
-    {{/each}}
+        {{/each}}
     </tbody>
 </table>
 
